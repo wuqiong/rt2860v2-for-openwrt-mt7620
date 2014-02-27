@@ -68,24 +68,24 @@ port and build steps:
     $make kernel_menuconfig
 
     enter this menu:
-    A:  Device Driver -->  <*> Memory Technology Device (MTD) support  ---> Ralink Flash Type support  --->  [*] Ralink MTD support  
-    B:  Device Driver -->  [*] Network device support  --->  [*]   Wireless LAN  --->
-        <*>   Ralink RT2860 802.11n AP support                                                               
-            [*]     LED Support                                                                                  
+    A:  Device Driver -->  <\*> Memory Technology Device (MTD) support  ---> Ralink Flash Type support  --->  [\*] Ralink MTD support  
+    B:  Device Driver -->  [\*] Network device support  --->  [\*]   Wireless LAN  --->
+        <\*>   Ralink RT2860 802.11n AP support                                                               
+            [\*]     LED Support                                                                                  
             [ ]     WSC (WiFi Simple Config)                                                                     
-            [*]     LLTD (Link Layer Topology Discovery Protocol)                                                
-            [*]     WDS                                                                                          
-            [*]     MBSSID                                                                                       
-            [*]       New MBSSID MODE                                                                            
-            [*]     AP-CLient Support                                                                            
-            [*]       MAC Repeater Support                                                                       
+            [\*]     LLTD (Link Layer Topology Discovery Protocol)                                                
+            [\*]     WDS                                                                                          
+            [\*]     MBSSID                                                                                       
+            [\*]       New MBSSID MODE                                                                            
+            [\*]     AP-CLient Support                                                                            
+            [\*]       MAC Repeater Support                                                                       
             [ ]     IGMP snooping                                                                                
             [ ]     NETIF Block                                                   
             [ ]     DFS                                                          
-            [*]     Carrier Detect                                                
+            [\*]     Carrier Detect                                                
             [ ]     DLS ((Direct-Link Setup) Support                            
             [ ]     IDS (Intrusion Detection System) Support                                                     
-            [*]     CoC Support                                                                                  
+            [\*]     CoC Support                                                                                  
             [ ]     Memory Optimization                                                                          
             [ ]     Video Turbine support                                                                        
             [ ]     802.11n Draft3                                                                               
