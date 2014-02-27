@@ -1,0 +1,7 @@
+menu "Ralink Flash Type support"
+
+config MTD_RALINK
+	bool "Ralink MTD support"
+	depends on MTD
+
+endmenu
