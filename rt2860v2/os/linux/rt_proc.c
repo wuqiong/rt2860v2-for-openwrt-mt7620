@@ -520,8 +520,8 @@ int wl_proc_exit(void)
 	if (proc_ralink_wl)
 		remove_proc_entry("wl", procRegDir);
 #endif /* VIDEO_TURBINE_SUPPORT */
-
-	
+	if (procRegDir)
+		remove_proc_entry(PROCREG_DIR, NULL);
 	return 0;
 }
 #else
