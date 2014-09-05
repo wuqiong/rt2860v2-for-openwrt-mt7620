@@ -2,7 +2,7 @@
 EXTRA_CFLAGS = -Idrivers/net/wireless/rt2860v2/include -Idrivers/net/wireless/rt2860v2/ate/include
 
 ifeq ($(CONFIG_SOC_MT7620),y)
-EXTRA_CFLAGS += -DCONFIG_RALINK_MT7620
+EXTRA_CFLAGS += -DCONFIG_RALINK_MT7620 -DRTMP_RF_RW_SUPPORT
 endif
 
 
